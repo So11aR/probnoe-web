@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #060608;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://yt3.ggpht.com/ytc/AKedOLTeMus_fQLfFXkuZwHoK3hyAJMCIK1cqzAstJKF=s900-c-k-c0x00ffffff-no-rj);
+  background-repeat: no-repeat;
+  background-position: top right 10%;
+  background-size: contain;
+}
+
+.container {
+  width: 95%;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+  margin-bottom: 90px;
+}
+
+.menu-list {
+  margin-right: auto;
+  margin-left: 67px;
+}
+
+.menu-link {
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 24px;
+}
+
+.main-title {
+  font-size: 76px;
+  line-height: 89px;
+  margin-bottom: 40px;
+}
+
+.main-descriotion {
+  max-width: 458px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 60px;
+}
+
+.button {
+  display: inline-block;
+  background: linear-gradient(44deg, #2a1c4c, #6d1885);
+  border-radius: 8px;
+  color: #FFFFFF;
+  border: none;
+  padding: 22px 72px;
+  text-decoration: none;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 85px;
+}
